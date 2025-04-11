@@ -1,0 +1,21 @@
+current directory: /Volumes/Transcend/Poplook/ToDoApp/vendor/bundle/ruby/3.1.0/gems/json-2.10.2/ext/json/ext/parser
+/Users/nawalnazari/.rbenv/versions/3.1.2/bin/ruby -I /Users/nawalnazari/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20250409-83739-70w7lc.rb extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... no
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Volumes/Transcend/Poplook/ToDoApp/vendor/bundle/ruby/3.1.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= clean
+
+current directory: /Volumes/Transcend/Poplook/ToDoApp/vendor/bundle/ruby/3.1.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\=
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+
+current directory: /Volumes/Transcend/Poplook/ToDoApp/vendor/bundle/ruby/3.1.0/gems/json-2.10.2/ext/json/ext/parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20250409-83739-s23flf/json/ext

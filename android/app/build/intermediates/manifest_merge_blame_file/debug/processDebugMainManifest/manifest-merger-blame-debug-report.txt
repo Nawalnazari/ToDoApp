@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.todoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:react-native-community_netinfo] /Volumes/Transcend/Poplook/ToDoApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-79
+12-->[:react-native-community_netinfo] /Volumes/Transcend/Poplook/ToDoApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[:react-native-community_netinfo] /Volumes/Transcend/Poplook/ToDoApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-76
+13-->[:react-native-community_netinfo] /Volumes/Transcend/Poplook/ToDoApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-73
+14    <!--
+15    This manifest file is used only by Gradle to configure debug-only capabilities
+16    for React Native Apps.
+17    -->
+18    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+18-->[com.facebook.react:react-android:0.75.3] /Users/nawalnazari/.gradle/caches/8.8/transforms/73b7edff174c2bc2a9c17a52a73bea25/transformed/react-android-0.75.3-debug/AndroidManifest.xml:16:5-78
+18-->[com.facebook.react:react-android:0.75.3] /Users/nawalnazari/.gradle/caches/8.8/transforms/73b7edff174c2bc2a9c17a52a73bea25/transformed/react-android-0.75.3-debug/AndroidManifest.xml:16:22-75
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.todoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.todoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:5:5-26:19
+27        android:name="com.todoapp.MainApplication"
+27-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:6:7-38
+28        android:allowBackup="false"
+28-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:10:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:8:7-41
+33        android:label="@string/app_name"
+33-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:7:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:9:7-52
+35        android:supportsRtl="true"
+35-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:12:7-33
+36        android:theme="@style/AppTheme"
+36-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:11:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/debug/AndroidManifest.xml:6:9-44
+38        <activity
+38-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:14:7-25:18
+39            android:name="com.todoapp.MainActivity"
+39-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:15:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:17:9-118
+41            android:exported="true"
+41-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:20:9-32
+42            android:label="@string/app_name"
+42-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:16:9-41
+43            android:launchMode="singleTask"
+43-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:18:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:19:9-51
+45            <intent-filter>
+45-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:21:9-24:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:22:13-65
+46-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:22:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:23:13-73
+48-->/Volumes/Transcend/Poplook/ToDoApp/android/app/src/main/AndroidManifest.xml:23:23-70
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[com.facebook.react:react-android:0.75.3] /Users/nawalnazari/.gradle/caches/8.8/transforms/73b7edff174c2bc2a9c17a52a73bea25/transformed/react-android-0.75.3-debug/AndroidManifest.xml:19:9-21:40
+52            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+52-->[com.facebook.react:react-android:0.75.3] /Users/nawalnazari/.gradle/caches/8.8/transforms/73b7edff174c2bc2a9c17a52a73bea25/transformed/react-android-0.75.3-debug/AndroidManifest.xml:20:13-77
+53            android:exported="false" />
+53-->[com.facebook.react:react-android:0.75.3] /Users/nawalnazari/.gradle/caches/8.8/transforms/73b7edff174c2bc2a9c17a52a73bea25/transformed/react-android-0.75.3-debug/AndroidManifest.xml:21:13-37
+54
+55        <meta-data
+55-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/41aaa8dfda8e66e4b139b2941538a18c/transformed/okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+56            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+56-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/41aaa8dfda8e66e4b139b2941538a18c/transformed/okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+57            android:value="GlideModule" />
+57-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/41aaa8dfda8e66e4b139b2941538a18c/transformed/okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+61            android:authorities="com.todoapp.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/nawalnazari/.gradle/caches/8.8/transforms/801ae63aa7ca7d1656b0fc5b53a5e7d4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/nawalnazari/.gradle/caches/8.8/transforms/801ae63aa7ca7d1656b0fc5b53a5e7d4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/nawalnazari/.gradle/caches/8.8/transforms/801ae63aa7ca7d1656b0fc5b53a5e7d4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+69        </provider>
+70
+71        <meta-data
+71-->[com.facebook.soloader:soloader:0.11.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/e24043839ca682ddfdc90d96ffeb4dab/transformed/soloader-0.11.0/AndroidManifest.xml:12:9-14:37
+72            android:name="com.facebook.soloader.enabled"
+72-->[com.facebook.soloader:soloader:0.11.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/e24043839ca682ddfdc90d96ffeb4dab/transformed/soloader-0.11.0/AndroidManifest.xml:13:13-57
+73            android:value="false" />
+73-->[com.facebook.soloader:soloader:0.11.0] /Users/nawalnazari/.gradle/caches/8.8/transforms/e24043839ca682ddfdc90d96ffeb4dab/transformed/soloader-0.11.0/AndroidManifest.xml:14:13-34
+74    </application>
+75
+76</manifest>
