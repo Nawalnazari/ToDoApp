@@ -29,6 +29,8 @@ target 'ToDoApp' do
   pod 'Firebase', :modular_headers => true
   pod 'FirebaseCore', :modular_headers => true
   pod 'FirebaseCoreInternal', :modular_headers => true
+  pod 'FirebaseFirestore', :modular_headers => true
+  pod 'FirebaseAuth'
   pod 'GoogleUtilities', :modular_headers => true
 
   target 'ToDoAppTests' do

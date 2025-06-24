@@ -12,6 +12,7 @@
     "preios": "ENVFILE=.env",
     "preandroid": "ENVFILE=.env",
     "ios": "react-native run-ios",
+    "ios-clean": "rm -rf ~/Library/Developer/Xcode/DerivedData && cd ios && pod install && cd ..",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "postinstall": "npx pod-install",
     "prepare": "husky",
